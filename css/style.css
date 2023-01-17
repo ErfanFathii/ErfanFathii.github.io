@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gruppo', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-width: 100%;
+    margin: 10px 10%;
+    position: sticky;
+    top: 0;
+    padding: 40px 0px;
+    background-color: white;
+}
+
+header h1{
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 50px;
+    line-height: 3vw;
+    text-align: center;
+}
+
+#mobile-nav {
+    display: none;
+}
+
+.as-ma::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    float: left;
+}
+
+aside {
+    text-align: center;
+    margin-left: 10%;
+    width: 15%;
+    padding: 1% 0% 10px 0%;
+    font-weight: bolder;
+}
+
+aside img {
+    margin-bottom: 10%;
+    left: 0%;
+    top: 0%;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+#navi a {
+    text-decoration: none;
+}
+
+.nav-ele {
+    list-style: none;
+    margin-top: 8%;
+    font-size: 15px;
+}
+
+#navi .nav-ele a {
+    color: black;
+}
+
+#navi .nav-ele a:hover {
+    color: gray;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 10%;
+    font-size: 20px;
+    margin-top: 6%;
+    width: 55%;
+    padding: 1% 10px 10px 10px;
+}
+
+main p, main a {
+    font-family: 'Dosis', sans-serif;
+}
+
+main a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 4%;
+    margin-left: 10%;
+    max-width: 100%;
+    padding: 10px;
+}
+
+footer li {
+    float: left;
+    list-style: none;
+    display: inline;
+    padding-right: 2%;
+    font-size: 2vw;
+}
+
+footer li a:link, footer li a:visited {
+    color: black;
+}
+
+footer li a:hover {
+    color: gray;
+}
+
+footer h4 {
+    margin-left: 70%;
+    color: gray;
+    font-size: 1vw;
+}
+
+@media(max-width: 768px) {
+    aside {
+        display: none;
+    }
+
+    header, main, footer {
+        width: 80%;
+    }
+
+    main {
+        margin: 3% 10% 10% 10%;
+    }
+
+    #mobile-nav {
+        max-width: 100%;
+        display: inline;
+        margin: 3% 4%;
+        /* color: blue; */
+    }
+
+    .nav-ele-m {
+        display: inline;
+        font-size: 2vw;
+        padding: 0% 1%;
+        /* color: black; */
+    }
+
+    .nav-ele-m a {
+        text-decoration: none;
+        /* color: black; */
+    }
+
+    .nav-ele-m a, .nav-ele-m a:visited {
+        color: black;
+    }
+    
+    .nav-ele-m a:hover {
+        color: gray;
+    }
+
+    footer li {
+        font-size: 4vw;
+    }
+
+    footer h4 {
+        float: right;
+        margin-left: 0;
+        font-size: 2vw;
+    }
+}
