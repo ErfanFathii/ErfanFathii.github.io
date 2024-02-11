@@ -14,7 +14,7 @@ header {
     background-color: white;
 }
 
-header h1{
+header h1 {
     font-family: 'Libre Caslon Text', serif;
     font-size: 50px;
     line-height: 3vw;
@@ -104,7 +104,8 @@ footer li {
     font-size: 2vw;
 }
 
-footer li a:link, footer li a:visited {
+footer li a:link,
+footer li a:visited {
     color: black;
 }
 
@@ -118,12 +119,14 @@ footer h4 {
     font-size: 1vw;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
     aside {
         display: none;
     }
 
-    header, main, footer {
+    header,
+    main,
+    footer {
         width: 80%;
     }
 
@@ -150,10 +153,11 @@ footer h4 {
         /* color: black; */
     }
 
-    .nav-ele-m a, .nav-ele-m a:visited {
+    .nav-ele-m a,
+    .nav-ele-m a:visited {
         color: black;
     }
-    
+
     .nav-ele-m a:hover {
         color: gray;
     }
