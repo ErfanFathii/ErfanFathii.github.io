@@ -1,11 +1,11 @@
 main h1 {
     text-align: center;
-    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
 
 main a {
-    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Times New Roman', Times, serif;
     color: black;
 }
 
