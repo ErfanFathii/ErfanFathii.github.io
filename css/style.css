@@ -10,7 +10,7 @@ header {
     margin: 10px 10%;
     position: sticky;
     top: 0;
-    padding: 40px 0px;
+    padding: 40px 0;
     background-color: white;
 }
 
@@ -19,6 +19,14 @@ header h1 {
     font-size: 50px;
     line-height: 3vw;
     text-align: center;
+}
+
+header h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: gray;
 }
 
 #mobile-nav {
@@ -37,18 +45,16 @@ header h1 {
 
 aside {
     text-align: center;
-    margin-left: 10%;
-    width: 15%;
-    padding: 1% 0% 10px 0%;
-    font-weight: bolder;
+    margin-left: 5%;
+    width: 20%;
+    padding: 2% 0;
+    font-weight: bold;
 }
 
 aside img {
     margin-bottom: 10%;
-    left: 0%;
-    top: 0%;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: auto;
     border-radius: 50%;
 }
 
@@ -59,7 +65,7 @@ aside img {
 .nav-ele {
     list-style: none;
     margin-top: 8%;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 #navi .nav-ele a {
@@ -71,15 +77,16 @@ aside img {
 }
 
 main {
-    margin-left: 20px;
+    margin-left: 5%;
     margin-right: 10%;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 6%;
-    width: 55%;
-    padding: 1% 10px 10px 10px;
+    width: 60%;
+    padding: 2% 10px 10px 10px;
 }
 
-main p, main a {
+main p,
+main a {
     font-family: 'Dosis', sans-serif;
 }
 
@@ -87,6 +94,26 @@ main a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
 }
 
 footer {
@@ -138,19 +165,16 @@ footer h4 {
         max-width: 100%;
         display: inline;
         margin: 3% 4%;
-        /* color: blue; */
     }
 
     .nav-ele-m {
         display: inline;
         font-size: 2vw;
         padding: 0% 1%;
-        /* color: black; */
     }
 
     .nav-ele-m a {
         text-decoration: none;
-        /* color: black; */
     }
 
     .nav-ele-m a,
